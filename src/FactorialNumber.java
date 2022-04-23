@@ -4,13 +4,13 @@ import java.io.*;
 import java.math.BigInteger;
 
 
-public class FactorialNumber {
+public class FactorialNumber{
 
     public static void main(String[] args) throws IOException {
 
-        File input = new File("C:\\Users\\Pasha\\Downloads\\input.txt");
+        File input = new File("");
         BufferedReader bufferedReader = new BufferedReader(new FileReader(input));
-        File output = new File("C:\\Users\\Pasha\\Downloads\\output.txt");
+        File output = new File("");
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(output));
         String st;
         int num = 0;
@@ -22,7 +22,6 @@ public class FactorialNumber {
             } catch (NumberFormatException | IOException nfe) {
                 // Handle the condition when str is not a number.
             }
-
         }
         bufferedReader.close();
 
