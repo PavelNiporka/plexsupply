@@ -23,7 +23,7 @@ public class FactorialNumber{
                 // Handle the condition when str is not a number.
             }
         }
-        bufferedReader.close();
+        bufferedWriter.close();
 
     }
     public static BigInteger factorial(int n) {
